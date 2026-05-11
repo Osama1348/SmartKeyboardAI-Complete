@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="الميزات">
+
+        <SwitchPreferenceCompat
+            app:key="auto_correct"
+            app:title="التصحيح التلقائي"
+            app:summary="تصحيح الأخطاء الإملائية والنحوية تلقائياً"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="auto_style"
+            app:title="تحسين الأسلوب"
+            app:summary="تحسين الأسلوب الأدبي تلقائياً"
+            app:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="API">
+
+        <EditTextPreference
+            app:key="api_key"
+            app:title="مفتاح API"
+            app:summary="أدخل مفتاح API الخاص بك"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

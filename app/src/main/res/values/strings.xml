@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Keyboard AI</string>
+    <string name="ime_name">لوحة المفاتيح الذكية</string>
+    <string name="ime_description">لوحة مفاتيح ذكية مع تصحيح تلقائي وصياغة أدبية</string>
+</resources>
